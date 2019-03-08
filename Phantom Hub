@@ -51,6 +51,7 @@ Main.Active = true
 Main.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
 Main.Position = UDim2.new(0.5, -226, 0.5, -148)
 Main.Size = UDim2.new(0, 453, 0, 296)
+Main.Visible = false
 
 b2.Name = "b2"
 b2.Parent = Main
@@ -253,7 +254,7 @@ Credits.TextScaled = true
 Credits.TextSize = 14
 Credits.TextWrapped = true
 -- Scripts:
-function SCRIPT_YETR77_FAKESCRIPT() -- _13.OC 
+function SCRIPT_QFFH77_FAKESCRIPT() -- _13.OC 
 	local script = Instance.new('LocalScript')
 	script.Parent = _13
 	local button = script.Parent
@@ -274,8 +275,8 @@ function SCRIPT_YETR77_FAKESCRIPT() -- _13.OC
 	button.Activated:Connect(onButtonActivated)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_YETR77_FAKESCRIPT))
-function SCRIPT_KFYV65_FAKESCRIPT() -- b2.2b 
+coroutine.resume(coroutine.create(SCRIPT_QFFH77_FAKESCRIPT))
+function SCRIPT_DDEJ65_FAKESCRIPT() -- b2.2b 
 	local script = Instance.new('LocalScript')
 	script.Parent = b2
 	script.Parent.MouseButton1Click:Connect(function()
@@ -283,8 +284,8 @@ function SCRIPT_KFYV65_FAKESCRIPT() -- b2.2b
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_KFYV65_FAKESCRIPT))
-function SCRIPT_VKSA78_FAKESCRIPT() -- b5.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_DDEJ65_FAKESCRIPT))
+function SCRIPT_IQGP77_FAKESCRIPT() -- b5.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = b5
 	script.Parent.MouseButton1Click:Connect(function()
@@ -292,8 +293,8 @@ function SCRIPT_VKSA78_FAKESCRIPT() -- b5.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_VKSA78_FAKESCRIPT))
-function SCRIPT_MBSW81_FAKESCRIPT() -- b4.4b 
+coroutine.resume(coroutine.create(SCRIPT_IQGP77_FAKESCRIPT))
+function SCRIPT_VRKF87_FAKESCRIPT() -- b4.4b 
 	local script = Instance.new('LocalScript')
 	script.Parent = b4
 	script.Parent.MouseButton1Click:Connect(function()
@@ -301,8 +302,29 @@ function SCRIPT_MBSW81_FAKESCRIPT() -- b4.4b
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_MBSW81_FAKESCRIPT))
-function SCRIPT_IENX73_FAKESCRIPT() -- Main.RGBControl 
+coroutine.resume(coroutine.create(SCRIPT_VRKF87_FAKESCRIPT))
+function SCRIPT_QRFJ84_FAKESCRIPT() -- b6.6b 
+	local script = Instance.new('LocalScript')
+	script.Parent = b6
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealPhantomX/Script-Hub/master/Counter%20Blox%20Aimbot", true))()
+		script.Parent.Parent.Top.Title.Text = "Open The Link For Instructions!"
+		wait(4)
+		script.Parent.Parent.Top.Title.Text = "Phantom Hub"
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_QRFJ84_FAKESCRIPT))
+function SCRIPT_QOTH76_FAKESCRIPT() -- b10.10b 
+	local script = Instance.new('LocalScript')
+	script.Parent = b10
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealPhantomX/Script-Hub/master/Balloon%20Boi%20Gui", true))()
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_QOTH76_FAKESCRIPT))
+function SCRIPT_WEKB68_FAKESCRIPT() -- Main.RGBControl 
 	local script = Instance.new('LocalScript')
 	script.Parent = Main
 	while wait() do
@@ -328,4 +350,4 @@ function SCRIPT_IENX73_FAKESCRIPT() -- Main.RGBControl
 	end
 
 end
-coroutine.resume(coroutine.create(SCRIPT_IENX73_FAKESCRIPT))
+coroutine.resume(coroutine.create(SCRIPT_WEKB68_FAKESCRIPT))
