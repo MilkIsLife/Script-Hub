@@ -1,0 +1,381 @@
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local BalloonBoiGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local BackFrame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local b3 = Instance.new("TextButton")
+local b4 = Instance.new("TextButton")
+local b5 = Instance.new("TextButton")
+local b6 = Instance.new("TextButton")
+local b1 = Instance.new("TextButton")
+--Properties:
+BalloonBoiGui.Name = "Balloon Boi Gui"
+BalloonBoiGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = BalloonBoiGui
+MainFrame.Active = true
+MainFrame.BackgroundColor3 = Color3.new(0.14902, 0.145098, 0.14902)
+MainFrame.BorderColor3 = Color3.new(1, 1, 1)
+MainFrame.BorderSizePixel = 2
+MainFrame.Position = UDim2.new(0.357073754, 0, 0.28457877, 0)
+MainFrame.Size = UDim2.new(0.348465532, 0, 0.430842489, 0)
+MainFrame.SizeConstraint = Enum.SizeConstraint.RelativeYY
+
+BackFrame.Name = "BackFrame"
+BackFrame.Parent = MainFrame
+BackFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+BackFrame.BorderSizePixel = 0
+BackFrame.Position = UDim2.new(0, 0, 0.10238985, 0)
+BackFrame.Size = UDim2.new(1, 0, 0.010104456, 0)
+
+Title.Name = "Title"
+Title.Parent = BackFrame
+Title.BackgroundColor3 = Color3.new(0.235294, 0.231373, 0.235294)
+Title.BackgroundTransparency = 1
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(-0.00159366452, 0, -10.2222624, 0)
+Title.Size = UDim2.new(1.00159359, 0, 9.93981171, 0)
+Title.Font = Enum.Font.GothamSemibold
+Title.Text = "Balloon Simulator"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.TextScaled = true
+Title.TextSize = 32
+Title.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = BackFrame
+Credits.BackgroundColor3 = Color3.new(0.235294, 0.231373, 0.235294)
+Credits.BackgroundTransparency = 1
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.0347319096, 0, 64.0082779, 0)
+Credits.Size = UDim2.new(0.922242403, 0, 22.6847229, 0)
+Credits.Font = Enum.Font.GothamSemibold
+Credits.Text = "Made By Phantom X#7242"
+Credits.TextColor3 = Color3.new(0.886275, 0.886275, 0.886275)
+Credits.TextScaled = true
+Credits.TextSize = 32
+Credits.TextWrapped = true
+
+b3.Name = "b3"
+b3.Parent = BackFrame
+b3.BackgroundColor3 = Color3.new(0.14902, 0.145098, 0.14902)
+b3.BorderColor3 = Color3.new(1, 1, 1)
+b3.Position = UDim2.new(0.0882051662, 0, 15.1903095, 0)
+b3.Size = UDim2.new(0.819242179, 0, 11.3260002, 0)
+b3.Font = Enum.Font.SourceSans
+b3.Text = "Auto Sell: OFF"
+b3.TextColor3 = Color3.new(1, 1, 1)
+b3.TextScaled = true
+b3.TextSize = 20
+b3.TextWrapped = true
+
+b4.Name = "b4"
+b4.Parent = BackFrame
+b4.BackgroundColor3 = Color3.new(0.14902, 0.145098, 0.14902)
+b4.BorderColor3 = Color3.new(1, 1, 1)
+b4.Position = UDim2.new(0.0882051662, 0, 48.4496498, 0)
+b4.Size = UDim2.new(0.819242418, 0, 11.3260002, 0)
+b4.Font = Enum.Font.SourceSans
+b4.Text = "Buy The VIP , VIP GOLD And UNLIMITED Items For Free!"
+b4.TextColor3 = Color3.new(1, 1, 1)
+b4.TextScaled = true
+b4.TextSize = 20
+b4.TextWrapped = true
+
+b5.Name = "b5"
+b5.Parent = BackFrame
+b5.BackgroundColor3 = Color3.new(0.14902, 0.145098, 0.14902)
+b5.BorderColor3 = Color3.new(1, 1, 1)
+b5.Position = UDim2.new(0.0882051662, 0, 37.4802666, 0)
+b5.Size = UDim2.new(0.819242179, 0, 11.3260002, 0)
+b5.Font = Enum.Font.SourceSans
+b5.Text = "Gems: OFF"
+b5.TextColor3 = Color3.new(1, 1, 1)
+b5.TextScaled = true
+b5.TextSize = 20
+b5.TextWrapped = true
+
+b6.Name = "b6"
+b6.Parent = BackFrame
+b6.BackgroundColor3 = Color3.new(0.14902, 0.145098, 0.14902)
+b6.BorderColor3 = Color3.new(1, 1, 1)
+b6.Position = UDim2.new(0.0882051662, 0, 26.4230995, 0)
+b6.Size = UDim2.new(0.819242299, 0, 11.3260002, 0)
+b6.Font = Enum.Font.SourceSans
+b6.Text = "Coins: OFF"
+b6.TextColor3 = Color3.new(1, 1, 1)
+b6.TextScaled = true
+b6.TextSize = 20
+b6.TextWrapped = true
+
+b1.Name = "b1"
+b1.Parent = BackFrame
+b1.BackgroundColor3 = Color3.new(0.14902, 0.145098, 0.14902)
+b1.BorderColor3 = Color3.new(1, 1, 1)
+b1.Position = UDim2.new(0.0882050321, 0, 3.95755315, 0)
+b1.Size = UDim2.new(0.819242299, 0, 11.326067, 0)
+b1.Font = Enum.Font.SourceSans
+b1.Text = "Auto Balloon: OFF"
+b1.TextColor3 = Color3.new(1, 1, 1)
+b1.TextScaled = true
+b1.TextSize = 20
+b1.TextWrapped = true
+-- Scripts:
+function SCRIPT_OEZI75_FAKESCRIPT() -- MainFrame.Rainbow1 
+	local script = Instance.new('LocalScript')
+	script.Parent = MainFrame
+	while wait() do
+		local r = (math.sin(workspace.DistributedGameTime/2)/2)+0.5
+		local g = (math.sin(workspace.DistributedGameTime)/2)+0.5
+		local b = (math.sin(workspace.DistributedGameTime*1.5)/2)+0.5
+		local color1 = Color3.new(r, g, b)
+		script.Parent.BorderColor3 = color1
+		end
+
+end
+coroutine.resume(coroutine.create(SCRIPT_OEZI75_FAKESCRIPT))
+function SCRIPT_ULXW89_FAKESCRIPT() -- MainFrame.Open/Close 
+	local script = Instance.new('LocalScript')
+	script.Parent = MainFrame
+	local toggle = false -- false is Off; true is On
+		
+		
+		function onKeyPress(actionName, userInputState, inputObject)
+		    if userInputState == Enum.UserInputState.Begin then
+		        if toggle == false then
+		             toggle = true
+		              script.Parent.Visible = true
+		        else
+		            toggle = false
+		            script.Parent.Visible = false
+		        end
+		    end
+		end
+		
+		game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ULXW89_FAKESCRIPT))
+function SCRIPT_YICM73_FAKESCRIPT() -- MainFrame.Drag1 
+	local script = Instance.new('LocalScript')
+	script.Parent = MainFrame
+	local UserInputService = game:GetService("UserInputService")
+		
+		local gui = script.Parent
+		
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+		
+		local function update(input)
+			local delta = input.Position - dragStart
+			gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
+		
+		gui.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = gui.Position
+				
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+		
+		gui.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging then
+				update(input)
+			end
+		end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_YICM73_FAKESCRIPT))
+function SCRIPT_ISWP89_FAKESCRIPT() -- MainFrame.Auto 
+	local script = Instance.new('LocalScript')
+	script.Parent = MainFrame
+	game.Players.LocalPlayer.PlayerGui.Main.Gems.SetVolume.Value = 0
+	game.Players.LocalPlayer.PlayerGui.Main.Coins.SetVolume.Value = 0
+	game.Players.LocalPlayer.PlayerGui.Main.Notification.SetVolume.Value = 0
+	-----------
+	while wait() do
+	for i,v in pairs(game.Players.LocalPlayer.OwnedPets:GetChildren()) do
+	if v.ClassName == "BoolValue" then
+	v.Name = "Gold Inferno Dominus"
+	end
+	end
+	-----------
+	
+	while wait() do
+		workspace.Gems.Gem.Visible = false
+	end
+	end
+	
+	local VirtualUser=game:service'VirtualUser'
+	game:service'Players'.LocalPlayer.Idled:connect(function()
+	VirtualUser:CaptureController()
+	VirtualUser:ClickButton2(Vector2.new())
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ISWP89_FAKESCRIPT))
+function SCRIPT_OQOP76_FAKESCRIPT() -- Credits.TextChange 
+	local script = Instance.new('LocalScript')
+	script.Parent = Credits
+	while wait() do
+	script.Parent.Text = ("Made By Phantom X#7242")
+	wait(4)
+	script.Parent.Text = ("Press P To Open And Close")
+	wait(4)
+	end
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_OQOP76_FAKESCRIPT))
+function SCRIPT_WOVQ90_FAKESCRIPT() -- b3.3b 
+	local script = Instance.new('LocalScript')
+	script.Parent = b3
+	On1 = false
+	On2 = false
+	On3 = false
+	On4 = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if On2 then
+			On2 = false
+			On3 = false
+	        On4 = false
+			script.Parent.Parent.b3.Text = "Auto Sell: OFF"
+		else
+			On1 = false
+			On2 = true
+			On3 = false
+	        On4 = false
+			script.Parent.Parent.b3.Text = "Auto Sell: ON"
+		end
+		while On2 do
+		wait(0.1)
+			game:GetService("ReplicatedStorage").Sell:FireServer(workspace.UITriggers.Sell)
+			end
+		wait(0.1)
+	end)
+	
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_WOVQ90_FAKESCRIPT))
+function SCRIPT_YRRP70_FAKESCRIPT() -- b4.4b 
+	local script = Instance.new('LocalScript')
+	script.Parent = b4
+	script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage").BuyBalloon:InvokeServer("Unlimited")
+	game:GetService("ReplicatedStorage").BuyBalloon:InvokeServer("VIP GOLD")
+	game:GetService("ReplicatedStorage").BuyHelium:InvokeServer("VIP")
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_YRRP70_FAKESCRIPT))
+function SCRIPT_HHAU68_FAKESCRIPT() -- b5.5b 
+	local script = Instance.new('LocalScript')
+	script.Parent = b5
+	local gems = game.Workspace.Gems
+	local plr = game:GetService("Players").LocalPlayer
+	
+	On3 = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if On3 then
+			On3 = false
+			script.Parent.Parent.b5.Text = "Gems: OFF"
+		else
+			On3 = true
+			script.Parent.Parent.b5.Text = "Gems: ON"
+		end
+		while On3 do
+			for i,gem in pairs(gems:GetChildren()) do
+				wait(0.01)
+				gem.CFrame = plr.Character.HumanoidRootPart.CFrame
+			end
+			wait(20)
+		end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_HHAU68_FAKESCRIPT))
+function SCRIPT_IZJQ88_FAKESCRIPT() -- b6.6b 
+	local script = Instance.new('LocalScript')
+	script.Parent = b6
+	On1 = false
+	On2 = false
+	On3 = false
+	On4 = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if On4 then
+			On1 = false
+			On2 = false
+			On3 = false
+			On4 = false
+			script.Parent.Parent.b6.Text = "Coins: OFF"
+		else
+			On1 = false
+			On2 = false
+			On3 = false
+			On4 = true
+			script.Parent.Parent.b6.Text = "Coins: ON"
+		end
+		while On4 do
+			wait(0000000.1) 
+	        game:GetService("ReplicatedStorage").FillBalloon:FireServer(100000)
+			game:GetService("ReplicatedStorage").Sell:FireServer(workspace.UITriggers.Sell)
+			wait(0000.1)
+		end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_IZJQ88_FAKESCRIPT))
+function SCRIPT_WJKD85_FAKESCRIPT() -- b1.1b 
+	local script = Instance.new('LocalScript')
+	script.Parent = b1
+	On1 = false
+	On2 = false
+	On3 = false
+	On4 = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if On1 then
+			On1 = false
+			On2 = false
+	        On3 = false
+	         On4 = false
+			script.Parent.Parent.b1.Text = "Auto Balloon: OFF"
+		else
+			On1 = true
+			On2 = false
+	        On3 = false
+	        On4 = false
+			script.Parent.Parent.b1.Text = "Auto Balloon: ON"
+		end
+		while On1 do
+			wait(0000000.1) 
+	        game:GetService("ReplicatedStorage").FillBalloon:FireServer(100000)
+	        wait(0000000.1)
+		end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_WJKD85_FAKESCRIPT))
